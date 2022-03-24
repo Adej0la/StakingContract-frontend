@@ -3,7 +3,7 @@ import { ethers } from "ethers";
 import abi from "./abi.json";
 
 const StakingApp = () => {
-  const contractAddress = "0x9B50f5a3B404c57C82790A410A18dCB75c3a5d92";
+  const contractAddress = "0x4F7d44492C2d8e90Ec19e2329cbd0e152E0Be293";
   const [totalStake, setTotalStake] = useState(null);
   const [userStakeBal, setUserStakeBal] = useState(null);
   const [errorMessage, setErrorMessage] = useState(null);
